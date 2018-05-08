@@ -2,7 +2,7 @@
 
 This cookbook sets up a new workstation from the scratch.
 
-Fork the repo, adjust recipies and attributes before applying it.
+Fork the repo, adjust recipes and attributes before applying it.
 
 Also edit `config/node.json`
 
@@ -13,7 +13,7 @@ Also edit `config/node.json`
 * Install chefdk, e.g. like this `sudo dpkg -i chefdk_1.4.3-1_amd64.deb`
 * Clone your forked repo
 * cd to ./workstation
-* Execute `sudo chef-client -z -c config/solo.rb -j config/node.json`
+* Execute `bin/run` to run all recipes or `bin/run git` to run `git` recipe or `bin/run %recipe%` for other recipe
 
 ## TODO
 
