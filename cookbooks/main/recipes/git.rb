@@ -1,19 +1,12 @@
 file "/home/#{node[:user]}/.cvsignore" do
-  content <<-END.gsub(/^ {4}/, '')
-    .bundle
-  END
+  content node[:git][:cvsignore_entries].join('\n')
   owner node[:user]
   group node[:user]
+
+  not_if node[:git][:cvsignore_entries].empty?
 end
 
-{
-  'user.name'         => 'brainopia',
-  'user.email'        => 'brainopia@evilmartians.com',
-  'github.user'       => 'brainopia',
-  'push.default'      => 'simple',
-  'core.excludesfile' => '~/.cvsignore'
-}
-.each do |setting, value|
+node[:git][:settings].each do |setting, value|
   execute "git #{setting}" do
     user node[:user]
     group node[:user]
