@@ -1,14 +1,13 @@
-%w[
-  main::optimization
-  main::ruby
-  main::usability
-  main::packages
-  main::vim
-  main::git
-  main::ssh
-  main::applications
-  main::terminal
-  main::docker
+[
+  'main::git',
+#  'main::optimization',
+  'main::packages',
+  'main::ruby',
+  'main::skype',
+#  'main::ssh',
+#  'main::terminal',
+#  'main::usability',
+#  'main::vim'
 ]
 .each do |name|
   include_recipe name 
