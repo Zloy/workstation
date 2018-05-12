@@ -10,6 +10,19 @@ file "/home/#{node[:user]}/.irbrc" do
   group node[:user]
 end
 
+%W[ /home/#{node[:user]}/code /home/#{node[:user]}/code/ruby].each do |path|
+  directory path do
+    owner node[:user]
+    group node[:user]
+  end
+end
+
+remote_file "/home/#{node[:user]}/code/ruby/debundle.rb" do
+  source 'https://raw.github.com/ConradIrwin/pry-debundle/master/lib/pry-debundle.rb'
+  owner node[:user]
+  group node[:user]
+end
+
 file "/home/#{node[:user]}/.pryrc" do
   content <<-CODE
     require_relative 'code/ruby/debundle'
@@ -36,12 +49,6 @@ file "/home/#{node[:user]}/.bundle/config" do
     BUNDLE_PATH: .bundle
     BUNDLE_DISABLE_SHARED_GEMS: 0
   END
-  owner node[:user]
-  group node[:user]
-end
-
-remote_file "/home/#{node[:user]}/code/ruby/debundle.rb" do
-  source 'https://raw.github.com/ConradIrwin/pry-debundle/master/lib/pry-debundle.rb'
   owner node[:user]
   group node[:user]
 end
