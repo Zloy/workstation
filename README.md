@@ -24,3 +24,51 @@ Also edit `config/node.json`
 
 * Doesn't work with recent Chef DK versions due to dependency `chruby_install` cookbook incompatibility. If you get a message like `ERROR: undefined method platform for #<Chef::Node::Attribute ...` try use Chef DK 1.4.3 version
 
+## Application full list
+
+* alsa-base
+* apache2-utils
+* cairo-dock
+* chromium
+* classicmenu-indicator
+* coffeescript
+* copyQ
+* docker
+* dropbox
+* easystroke
+* furiusisomount
+* exuberant-ctags
+* graphviz
+* gvim
+* keepassx
+* nethogs
+* meld
+* mscgen
+* nodejs
+* pencil
+* pgadmin3
+* putty
+* gtk-recordmydesktop
+* +ruby
+* rubymine
+* sqliteman
+* +skype
+* tilda
+* touchpad-indicator
+* transmission-gtk
+* transgui
+* unetbootin
+* variety
+* vagrant
+* virtualbox
+* +vim
+* vuze
+* webstorm
+* +wget
+* wmctrl
+* xclip
+* xdotool
+* xsel
+* yandex-disk
+* zim
+
