@@ -29,11 +29,11 @@ Also edit `config/node.json`
 * alsa-base
 * apache2-utils
 * cairo-dock
-* chromium
+* chromium-browser
 * classicmenu-indicator
 * coffeescript
 * copyQ
-* docker
+* docker.io
 * dropbox
 * easystroke
 * furiusisomount
@@ -49,10 +49,10 @@ Also edit `config/node.json`
 * pgadmin3
 * putty
 * gtk-recordmydesktop
-* +ruby
+* ruby
 * rubymine
 * sqliteman
-* +skype
+* skype
 * tilda
 * touchpad-indicator
 * transmission-gtk
@@ -61,14 +61,13 @@ Also edit `config/node.json`
 * variety
 * vagrant
 * virtualbox
-* +vim
+* vim
 * vuze
 * webstorm
-* +wget
+* wget
 * wmctrl
 * xclip
 * xdotool
 * xsel
 * yandex-disk
 * zim
-
