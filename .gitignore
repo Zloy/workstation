@@ -1,3 +1,4 @@
 /tmp/
 *.swp
 config/local-mode-cache
+.idea
