@@ -12,7 +12,6 @@ default.packages.install.cli =
   nodejs
   vagrant
   wget
-  yandex-disk
 ]
 
 # gui tools only for desktop linux
@@ -21,25 +20,19 @@ default.packages.install.gui =
   cairo-dock
   chromium-browser
   classicmenu-indicator
-  copyQ
-  dropbox
   easystroke
   furiusisomount
   gtk-recordmydesktop
-  gvim
-  keepassx
+  vim-gtk
   meld
   pencil
   pgadmin3
   putty
   sqliteman
   tilda
-  touchpad-indicator
   transmission-gtk
   transgui
   unetbootin
-  variety
-  virtualbox
   vuze
   wmctrl
   xclip
