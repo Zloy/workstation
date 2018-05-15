@@ -1,0 +1,29 @@
+[user]
+  name = <%= @github_user %>
+  email = <%= @github_email %>
+[i18n]
+  commitencoding = utf8
+  logoutputencoding = utf8
+[core]
+  autocrlf = input
+  editor = gvim -f
+  excludesfile = ~/.gitignore
+  fscache = true
+  pager = LESSCHARSET=utf-8 less -x2
+  preloadindex = true
+  quotepath = false
+[color]
+  ui = true
+  status = auto
+  branch = auto
+  diff = auto
+[gc]
+  auto = 256
+[push]
+  default = simple
+[alias]
+  co = checkout
+  st = status
+  di = diff
+  br = branch
+  ci = commit
