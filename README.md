@@ -24,6 +24,10 @@ Also edit `config/node.json`
 
 * Doesn't work with recent Chef DK versions due to dependency `chruby_install` cookbook incompatibility. If you get a message like `ERROR: undefined method platform for #<Chef::Node::Attribute ...` try use Chef DK 1.4.3 version
 
+## System tweaks
+
+* Disable screen lock by screensaver for 5 minutes inactivity in `recipe[main::disable_screen_lock]`
+
 ## Application full list
 
 * alsa-base
