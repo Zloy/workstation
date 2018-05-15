@@ -40,6 +40,7 @@ Also edit `config/node.json`
 * coffeescript
 * copyq
 * docker ce
+* docker compose
 * **dropbox**
 * easystroke
 * furiusisomount

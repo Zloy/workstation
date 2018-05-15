@@ -1,18 +1,19 @@
 [
   'main::git',
-#  'main::optimization',
   'main::packages',
   'main::screen',
   'main::ruby',
-#  'main::skype',
   'main::disable_screen_lock',
   'main::yandex_disk',
   'main::virtualbox',
-  'main::docker'
+  'main::docker',
+  'main::docker_compose'
+#  'main::skype',
 #  'main::ssh',
 #  'main::terminal',
 #  'main::usability',
-#  'main::vim'
+#  'main::vim',
+#  'main::optimization'
 ]
 .each do |name|
   include_recipe name
