@@ -30,6 +30,8 @@ Also edit `config/node.json`
 
 ## Application full list
 
+**Bold** packages are not implemented yet
+
 * alsa-base
 * apache2-utils
 * cairo-dock
@@ -38,13 +40,13 @@ Also edit `config/node.json`
 * coffeescript
 * copyq
 * docker.io
-* *dropbox*
+* **dropbox**
 * easystroke
 * furiusisomount
 * exuberant-ctags
 * graphviz
 * gvim
-* *keepassx*
+* **keepassx**
 * nethogs
 * meld
 * mscgen
@@ -56,9 +58,9 @@ Also edit `config/node.json`
 * ruby
 * rubymine
 * sqliteman
-* skype
+* **skype**
 * tilda
-* *touchpad-indicator*
+* **touchpad-indicator**
 * transmission-gtk
 * transgui
 * unetbootin
