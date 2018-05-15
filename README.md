@@ -39,7 +39,7 @@ Also edit `config/node.json`
 * classicmenu-indicator
 * coffeescript
 * copyq
-* docker.io
+* docker ce
 * **dropbox**
 * easystroke
 * furiusisomount
