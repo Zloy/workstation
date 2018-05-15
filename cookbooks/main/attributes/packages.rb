@@ -1,44 +1,48 @@
 # cli tools for desktop and server linux
 default.packages.install.cli =
-%w[
-  alsa-base
-  apache2-utils
-  coffeescript
-  exuberant-ctags
-  graphviz
-  nethogs
-  mscgen
-  mtr
-  nodejs
-  ranger
-  screen
-  vagrant
-  wget
-]
+{
+  'alsa-base' => nil,
+  'apache2-utils' => nil,
+  'coffeescript' => nil,
+  'exuberant-ctags' => nil,
+  'graphviz' => nil,
+  'nethogs' => nil,
+  'mscgen' => nil,
+  'mtr' => nil,
+  'nodejs' => nil,
+  'ranger' => nil,
+  'screen' => nil,
+  'vagrant' => nil,
+  'wget' => nil
+}
 
 # gui tools only for desktop linux
 default.packages.install.gui =
-%w[
-  cairo-dock
-  chromium-browser
-  classicmenu-indicator
-  easystroke
-  furiusisomount
-  gtk-recordmydesktop
-  vim-gtk
-  meld
-  pencil
-  pgadmin3
-  putty
-  sqliteman
-  tilda
-  transmission-gtk
-  transgui
-  unetbootin
-  vuze
-  wmctrl
-  xclip
-  xdotool
-  xsel
-  zim
-]
+{
+  'cairo-dock' => nil,
+  'chromium-browser' => nil,
+  'classicmenu-indicator' => nil,
+  'copyq' => { 'ppa' => 'ppa:noobslab/indicators' },
+  'easystroke' => nil,
+  'furiusisomount' => nil,
+  'gtk-recordmydesktop' => nil,
+  'vim-gtk' => nil,
+  'vim-gtk' => nil,
+  'meld' => nil,
+  'pencil' => nil,
+  'pgadmin3' => nil,
+  'putty' => nil,
+  'sqliteman' => nil,
+  'tilda' => nil,
+  'transmission-gtk' => nil,
+  'transgui' => nil,
+  'unetbootin' => nil,
+  'variety' => { 'ppa' => 'ppa:peterlevi/ppa' },
+  'vim-gtk' => nil,
+  'vuze' => nil,
+  'wmctrl' => nil,
+  'xclip' => nil,
+  'xdotool' => nil,
+  'xsel' => nil,
+  'zim' => nil
+}

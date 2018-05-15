@@ -32,15 +32,15 @@ Also edit `config/node.json`
 * chromium-browser
 * classicmenu-indicator
 * coffeescript
-* - copyQ
+* copyq
 * docker.io
-* - dropbox
+* *dropbox*
 * easystroke
 * furiusisomount
 * exuberant-ctags
 * graphviz
 * gvim
-* - keepassx
+* *keepassx*
 * nethogs
 * meld
 * mscgen
@@ -54,13 +54,13 @@ Also edit `config/node.json`
 * sqliteman
 * skype
 * tilda
-* - touchpad-indicator
+* *touchpad-indicator*
 * transmission-gtk
 * transgui
 * unetbootin
-* - variety
+* variety
 * vagrant
-* - virtualbox
+* *virtualbox*
 * vim
 * vuze
 * webstorm
@@ -69,5 +69,5 @@ Also edit `config/node.json`
 * xclip
 * xdotool
 * xsel
-* - yandex-disk
+* *yandex-disk*
 * zim
