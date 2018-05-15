@@ -60,7 +60,7 @@ Also edit `config/node.json`
 * unetbootin
 * variety
 * vagrant
-* *virtualbox*
+* virtualbox
 * vim
 * vuze
 * webstorm
