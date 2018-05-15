@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #
 # Cookbook Name:: ruby_install
 # Attributes:: default
@@ -19,8 +20,8 @@
 # limitations under the License.
 #
 
-default['ruby_install']['version'] = '0.2.1'
-default['ruby_install']['checksum'] = '9d4a3d402e40f5b3a8eff23ee38066c51c7f744057d0f67d4450d1a8a98a5d5a'
+default['ruby_install']['version'] = '0.4.3'
+default['ruby_install']['checksum'] = '0ec8c23699aad534dcab549c0f6543e066725a62f5b3d7e8dae311c61df1aef3' # rubocop:disable LineLength
 
 # Install rubies into /opt/rubies as expected by Chruby.
 default['ruby_install']['default_ruby_base_path'] = '/opt/rubies'

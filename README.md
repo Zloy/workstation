@@ -56,7 +56,7 @@ Also edit `config/node.json`
 * putty
 * gtk-recordmydesktop
 * ruby
-* rubymine
+* **rubymine**
 * sqliteman
 * **skype**
 * tilda
@@ -77,3 +77,12 @@ Also edit `config/node.json`
 * xsel
 * yandex-disk
 * zim
+
+## Berksfile update
+
+When added a cookbook to Berksfile execute:
+
+    berks install -d
+    berks vendor vendor/cookbooks
+
+and add update vendor directory to git
