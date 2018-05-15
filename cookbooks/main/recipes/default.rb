@@ -2,6 +2,7 @@
   'main::git',
 #  'main::optimization',
   'main::packages',
+  'main::screen',
   'main::ruby',
 #  'main::skype',
   'main::disable_screen_lock',
@@ -14,6 +15,6 @@
 #  'main::vim'
 ]
 .each do |name|
-  include_recipe name 
+  include_recipe name
 end
 

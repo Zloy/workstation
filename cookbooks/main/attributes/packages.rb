@@ -11,7 +11,6 @@ default.packages.install.cli =
   'mtr' => nil,
   'nodejs' => nil,
   'ranger' => nil,
-  'screen' => nil,
   'vagrant' => nil,
   'wget' => nil
 }
