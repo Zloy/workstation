@@ -69,5 +69,5 @@ Also edit `config/node.json`
 * xclip
 * xdotool
 * xsel
-* *yandex-disk*
+* yandex-disk
 * zim
