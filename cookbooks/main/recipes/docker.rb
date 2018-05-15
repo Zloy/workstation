@@ -8,3 +8,7 @@ end
 
 apt_package 'docker-ce'
 
+execute 'Add user to docker user group' do
+  command "usermod -aG docker #{node[:user]}"
+  user 'root'
+end
