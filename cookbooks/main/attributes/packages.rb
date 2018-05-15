@@ -10,6 +10,8 @@ default.packages.install.cli =
   mscgen
   mtr
   nodejs
+  ranger
+  screen
   vagrant
   wget
 ]
