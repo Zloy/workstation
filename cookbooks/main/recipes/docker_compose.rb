@@ -1,4 +1,4 @@
-apt_package 'python-pip'
+apt_package %w(python-pip python-dev)
 
 execute 'Install docker compose' do
   command 'pip install docker-compose'
