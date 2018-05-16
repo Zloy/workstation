@@ -38,6 +38,9 @@ Also edit `config/node.json`
 * chromium-browser
 * classicmenu-indicator
 * coffeescript
+* compiz
+* compiz-plugins
+* compizconfig-settings-manager
 * copyq
 * docker ce
 * docker compose
