@@ -10,6 +10,7 @@ default.packages.install.cli =
   'mscgen' => nil,
   'mtr' => nil,
   'nodejs' => nil,
+  'npm' => nil,
   'ranger' => nil,
   'vagrant' => nil,
   'wget' => nil
