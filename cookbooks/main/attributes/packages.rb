@@ -6,6 +6,7 @@ default.packages.install.cli =
   'coffeescript' => nil,
   'exuberant-ctags' => nil,
   'graphviz' => nil,
+  'jq' => nil, # json formatter
   'nethogs' => nil,
   'mscgen' => nil,
   'mtr' => nil,
