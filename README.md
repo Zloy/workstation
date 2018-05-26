@@ -46,6 +46,7 @@ Also edit `config/node.json`
 * docker compose
 * **dropbox**
 * easystroke
+* evoluspencil
 * furiusisomount
 * exuberant-ctags
 * graphviz
@@ -55,7 +56,6 @@ Also edit `config/node.json`
 * meld
 * mscgen
 * nodejs
-* pencil
 * pgadmin3
 * putty
 * gtk-recordmydesktop
@@ -76,6 +76,7 @@ Also edit `config/node.json`
 * webstorm
 * wget
 * wmctrl
+* wscat
 * xclip
 * xdotool
 * xsel
