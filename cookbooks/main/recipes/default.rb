@@ -7,7 +7,8 @@
   'main::yandex_disk',
   'main::virtualbox',
   'main::docker',
-  'main::docker_compose'
+  'main::docker_compose',
+  'main::wscat'
 #  'main::skype',
 #  'main::ssh',
 #  'main::terminal',
