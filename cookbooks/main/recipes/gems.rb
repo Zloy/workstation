@@ -1,3 +1,5 @@
+package 'libsqlite3-dev'
+
 bash 'install gems' do
   user node[:user]
   flags '--login'
@@ -7,6 +9,7 @@ bash 'install gems' do
                 pry-pretty-numeric bond \
                 pry-rescue pry-stack_explorer \
                 pry-remote pry-vterm_aliases \
-                pry-syntax-hacks
+                pry-syntax-hacks \
+                gemstash
   SH
 end
