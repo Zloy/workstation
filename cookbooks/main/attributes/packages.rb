@@ -7,6 +7,7 @@ default.packages.install.cli =
   'exuberant-ctags' => nil,
   'graphviz' => nil,
   'jq' => nil, # json formatter
+  'libmysqlclient-dev' => nil,
   'nethogs' => nil,
   'mscgen' => nil,
   'mtr' => nil,
@@ -26,7 +27,7 @@ default.packages.install.gui =
   'compizconfig-settings-manager' => nil,
   'copyq' => { 'ppa' => 'ppa:noobslab/indicators' },
   'easystroke' => nil,
-  'evoluspencil' => nil,
+#  'evoluspencil' => nil,
   'furiusisomount' => nil,
   'gtk-recordmydesktop' => nil,
   'vim-gtk' => nil,
