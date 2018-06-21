@@ -9,6 +9,7 @@ default.packages.install.cli =
   'jq' => nil, # json formatter
   'libmysqlclient-dev' => nil,
   'nethogs' => nil,
+  'mariadb-client' => nil,
   'mscgen' => nil,
   'mtr' => nil,
   'ranger' => nil,
