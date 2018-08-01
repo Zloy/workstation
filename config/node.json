@@ -1,4 +1,6 @@
 {
+  "github_user": "Zloy",
+  "github_email": "xxxxxx@xxxxx.xx",
   "chruby_install": {
     "default_ruby": "ruby",
     "auto_upgrade": true,
