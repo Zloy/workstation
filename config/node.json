@@ -2,10 +2,11 @@
   "chruby_install": {
     "default_ruby": "ruby",
     "auto_upgrade": true,
-    "use_embedded": true
+    "use_embedded": true,
+    "default_ruby": "ruby-2.5.1"
   },
   "rubies": {
-    "list": [ "ruby 2.0.0-p353" ],
+    "list": [ "ruby 2.5.1" ],
     "install_bundler": true
   },
   "run_list": [ "recipe[main]" ]
