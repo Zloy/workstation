@@ -8,7 +8,8 @@
   'main::virtualbox',
   'main::docker',
   'main::docker_compose',
-  'main::wscat'
+  'main::wscat',
+  'main::google_chrome'
 #  'main::skype',
 #  'main::ssh',
 #  'main::terminal',

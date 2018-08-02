@@ -49,6 +49,7 @@ Also edit `config/node.json`
 * evoluspencil
 * furiusisomount
 * exuberant-ctags
+* google chrome
 * graphviz
 * gvim
 * **keepassx**
