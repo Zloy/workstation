@@ -13,6 +13,7 @@ Also edit `config/node.json`
 * Install chefdk, e.g. like this `sudo dpkg -i chefdk_1.4.3-1_amd64.deb`
 * Clone your forked repo
 * cd to ./workstation
+* Edit `github_user`, `github_email` attributes in [config/node.json](config/node.json) file
 * Execute `bin/run` to run all recipes or `bin/run git` to run `git` recipe or `bin/run %recipe%` for other recipe
 
 ## TODO
