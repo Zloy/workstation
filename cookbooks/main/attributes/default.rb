@@ -1,1 +1,1 @@
-normal.user=ENV['SUDO_USER']
+default.user=ENV['SUDO_USER']
