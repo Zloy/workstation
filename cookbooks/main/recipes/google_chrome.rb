@@ -10,5 +10,5 @@ execute 'Update repo info' do
   not_if { ::File.exist?('/etc/apt/sources.list.d/google-chrome.list') }
 end
 
-apt_package %w(google-chrome-stable)
+apt_package %w(libnss3 google-chrome-stable)
 
