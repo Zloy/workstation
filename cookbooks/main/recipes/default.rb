@@ -5,7 +5,7 @@
   'main::ruby',
   'main::disable_screen_lock',
   'main::yandex_disk',
-  'main::virtualbox',
+#  'main::virtualbox',
   'main::docker',
   'main::docker_compose',
   'main::wscat',

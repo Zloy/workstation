@@ -13,7 +13,7 @@ default.packages.install.cli =
   'mscgen' => nil,
   'mtr' => nil,
   'ranger' => nil,
-  'vagrant' => nil,
+  #'vagrant' => nil,
   'wget' => nil
 }
 
