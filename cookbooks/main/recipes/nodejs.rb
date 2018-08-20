@@ -3,7 +3,7 @@ execute 'Install nodejs repo' do
   user 'root'
 end
 
-apt_package %w(nodejs build-essential)
+apt_package %w(nodejs build-essential libssl-dev)
 
 execute 'Upgrade npm' do
   command 'npm i -g npm@6.2.0'
